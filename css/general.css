@@ -44,6 +44,7 @@ html {
     
      /* controls the default font size */ /*100% = 16px = 1rem */
     font-size: 100%;
+    color:#585858;
    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
    
 }
@@ -64,7 +65,7 @@ body {
 }
 
 .logo {
-    height: 4.5rem;
+    height: 8rem;
     width: auto; 
     margin: .5rem auto .5rem;
 }
@@ -72,20 +73,25 @@ body {
 article {
     margin: 0;
     padding: 0 5%; 
+    background-color:#FBEFF5;
     overflow: hidden; /* closes the gap. forces parent to wrap around its child */ 
 }
-
+    
 h1 {
-    margin: .5rem auto .5rem; 
+    margin: 1.5rem auto 1.5rem; 
     display:block;
-    font-size: 4rem; 
-    line-height:3.75rem; 
+    font-size: 4rem;
+    color:#585858;
+    line-height:3.5rem; 
     font-family: Arial, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    overflow:hidden;
     
 } 
 
 h1 + p {
-    font-size:1.25rem;
+    font-size:1.5rem;
+    line-height:1.75rem;
+    margin: 1.5rem auto 1.5rem;
     font-weight:bold; 
 }
 
@@ -120,5 +126,5 @@ footer p {
 } 
 
 footer a {
-    color: white; 
+    color: #DF0101; 
 } 
